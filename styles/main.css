@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #060a24;
+}
+
+h1 {
+  font-family: "IBMPlexSans";
+  color: #060a24;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "section-welcome"
+    "section-chapters"
+    "section-we-come-from"
+    "section-guest"
+    "section-topics"
+    "footer";
+}
+
+/*@media (max-width: 48em) {
+  .container {
+    grid-template-areas:
+      "header header"
+      "section-welcome section-welcome"
+      "section-chapters section-chapters"
+      "phoneimg phone"
+      "interviews interviews"
+      "topics topics"
+      "end-container end-container"
+      "footer footer";
+  }
+}
+*/

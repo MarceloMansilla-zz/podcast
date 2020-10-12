@@ -1,0 +1,19 @@
+.section-welcome {
+  margin-left: 15%;
+}
+
+.section-welcome .section-welcome-title .world-cross-line {
+  text-decoration: line-through;
+}
+
+.section-welcome .section-welcome-title {
+  margin-bottom: 3%;
+}
+
+.section-welcome .section-welcome-title-paragraph {
+  margin-bottom: 2%;
+  width: 55%;
+  font-size: 20px;
+  word-spacing: 16px;
+  text-align: left;
+}
