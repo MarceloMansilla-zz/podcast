@@ -1,0 +1,23 @@
+.section-topics .our-topics-section {
+  align-items: center;
+}
+
+.section-topics {
+  width: 100%;
+  height: 500px;
+  display: grid;
+  grid-template-areas:
+    "title"
+    "our-topics-section";
+}
+
+.our-topics-section {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas: "img-topic-temote img-topic-programming img-topic-computer img-topic-security-information";
+}
+
+.img-topic-security-information{
+    display: block;
+}

@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/guest.css">
     <link rel="stylesheet" href="./styles/menu.css">
     <link rel="stylesheet" href="./styles/where-we-come-from.css">
     <link rel="stylesheet" href="./styles/chapters.css">
     <link rel="stylesheet" href="./styles/news.css">
-    <link rel="stylesheet" href="./styles/know-more.css">
+    <link rel="stylesheet" href="./styles/topics.css">
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/welcome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -39,7 +40,7 @@
     <main class="container">
         <section class="section-welcome">
             <div class="text">
-                <p class="section-welcome-title"><h1>Hello <span class="world-cross-line">world</span> pale blue dot</h1></p>
+                <p class="section-welcome-title">Hello <span class="world-cross-line">world</span> pale blue dot</p>
                 <p class="section-welcome-title-paragraph">
                     El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos
                     episodios,
@@ -53,8 +54,8 @@
             <h2 class="section-chapters-title">Episodios</h2>
             <div class="section-chapters-embeded">
                 <div class="section-chapters-postcad">
-                    <iframe src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt" width="584px"
-                        height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"
+                    <iframe src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt" width="30%"
+                        height="20%" frameborder="0" allowtransparency="true" allow="encrypted-media"
                         class="iframe-topics"></iframe>
                     <iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby" width="584px"
                         height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"
@@ -69,42 +70,66 @@
             </div>
         </section>
         <section class="section-we-come-from" id="section-we-come-from">
-            <img src="./imagenes/phone.png" class="img-where-we-are-from" alt="where we are from">
-            <h1>De dónde venimos</h1>
-            <p>Our posturings, our imagined self-importance, the delusion that we have some
-                privileged position in the Universe, are challenged by this point of pale light.
-            </p>
-            <p>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this
-                vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+            <div class="section-we-come-from-img">
+                <img src="./imagenes/phone.png" class="img-where-we-are-from" alt="where we are from">
+            </div>
+            <div class="section-we-come-from-text">
+                <span class="title">De dónde venimos</span>
+                <br><br>
+                <p class="first-paragraph">Our posturings, our imagined self-importance, the delusion that we have some
+                    privileged position in the Universe, are challenged by this point of pale light.
+                </p>
+                <br>
+                <p class="second-paragraph">
+                    Our planet is a lonely speck in the great enveloping cosmic dark. In our
+                    obscurity, in all this
+                    vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+            </div>
         </section>
         <section class="section-guest" id="section-guest">
-            <h1>Invitadas/os estelares</h1>
+            <div class="title">
+                <h1>Invitadas/os estelares</h1>
+            </div>
             <div class="img-container">
-                <img src="./imagenes/grace-hopper.png" class="img-guest">
-                <img src="./imagenes/Katie-Bouman.png" class="img-guest">
-                <img src="./imagenes/Margaret_Hamilton.png" class="img-guest">
-                <img src="./imagenes/An E.R.A.Univac 1103 computer in the 1950s.png" class="img-guest">
+                <img src="./imagenes/grace-hopper.png" class="img-guest-grace-hopper" alt="Grace Hopper"><!---->
+                <img src="./imagenes/Katie-Bouman.png" class="img-guest-katie-bouman" alt="Katie Bouman"><!---->
+                <img src="./imagenes/Margaret_Hamilton.png" class="img-guest-margaret-hamiltonian"
+                    alt="Margaret Hamilton"><!---->
+                <img src="./imagenes/An E.R.A.Univac 1103 computer in the 1950s.png" class="img-guest-computer"
+                    alt="An E.R.A.Univac 1103 computer in the 1950s"><!---->
                 <img src="./imagenes/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"
-                    class="img-guest">
-                <img src="./imagenes/susan-kare.png" class="img-guest">
+                    class="img-guest-computer-operators" alt="Computer operators with an Eniac"><!---->
+                <img src="./imagenes/susan-kare.png" class="img-guest-susan-kare" alt="Susan Kare"><!---->
             </div>
         </section>
         <section class="section-topics" id="section-topics">
-            <h1>Algunos de nuestros temas</h1>
+            <div class="title">
+                <h1>Algunos de nuestros temas</h1>
+            </div>
             <div class="our-topics-section">
-                <img src="./imagenes/remote.png" class="img-topics" alt="Remote">
-                <p>Trabajo Remoto</p>
-                <img src="./imagenes/programing.png" class="img-topics" alt="Programming">
-                <p>Repensando la programaci&oacute;n</p>
-                <img src="./imagenes/computer.png" class="img-topics" alt="Coding base">
-                <p>Bases del c&oacute;digo</p>
-                <img src="./imagenes/informatio-security.png" class="img-topics" alt="Security Information">
-                <p>Seguridad inform&aacute;tica</p>
+                <div class="img-topic-temote">
+                    <img src="./imagenes/remote.png" alt="Remote">
+                    <span>Trabajo Remoto</span>
+                </div>
+                <div class="img-topic-programming">
+                    <img src="./imagenes/programing.png" alt="Programming">
+                    <span>Repensando la programaci&oacute;n</span>
+                </div>
+                <div class="img-topic-computer">
+                    <img src="./imagenes/computer.png" alt="Coding base">
+                    <span>Bases del c&oacute;digo</span>
+                </div>
+                <div class="img-topic-security-information">
+                    <img src="./imagenes/informatio-security.png" alt="Security Information">
+                    <span>Seguridad inform&aacute;tica</span>
+                </div>
             </div>
         </section>
         <section class="section-news" id="section-news">
-            <h1>¿Querés las &uacute;ltimas novedades?</h1>
-            <div>
+            <div class="title">
+                <h1>¿Querés las &uacute;ltimas novedades?</h1>
+            </div>
+            <div class="btn-chapters">
                 <button class="btn-section-news">ESCUCH&Aacute; LOS EPISODIOS</button>
             </div>
         </section>
