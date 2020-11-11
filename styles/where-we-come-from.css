@@ -1,5 +1,38 @@
 /*--------------SECTION--------------*/
+.section-we-come-from {
+    width: 100%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-areas:
+      "section-we-come-from-img section-we-come-from-text";
+  }
+  
+
 .img-where-we-are-from {
   width: 467px;
   height: 660px;
+  margin-left:15%;
+  z-index: 3;
+}
+
+.section-we-come-from-texto .title {
+  margin-bottom: 4%;
+  font-size: 50px;
+}
+
+.section-we-come-from-text {
+  margin-top: 15%;
+  width: 50%;
+  font-family: IBMPlexMono;
+  font-size: 30px;
+  color: #060a24;
+  letter-spacing: 0;
+  word-spacing: 16px;
+  line-height: 30px;
+}
+
+.section-we-come-from-text .first-paragraph {
+}
+
+.section-we-come-from-text .second-paragraph {
 }

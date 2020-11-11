@@ -7,7 +7,8 @@
 }
 
 .section-welcome .section-welcome-title {
-  margin-bottom: 3%;
+  margin-bottom: 1%;
+  font-size:50px;
 }
 
 .section-welcome .section-welcome-title-paragraph {
@@ -17,4 +18,15 @@
   word-spacing: 16px;
   text-align: left;
   
+}
+
+.btn-know-more {
+  background: #00f3bb;
+  border: none;
+  width: 228px;
+  height: 48px;
+}
+
+.btn-know-more:hover {
+  background-image: linear-gradient(225deg, #0000fe 0%, #00f0b8 100%);
 }

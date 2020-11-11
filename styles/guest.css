@@ -1,8 +1,39 @@
 /*--------------SECTION GUEST--------------*/
 
-.img-container .img-guest {
+.section-guest .img-container {
   width: 100%;
-  height: 243px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: 0px;
+  grid-template-areas:
+    "title"
+    "img-container";
+}
+.section-guest .title {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-bottom: 2.5%;
+  font-size: 20px;
 }
 
+.section-guest .img-container {
+  width: 100%;
+  margin: 0 auto;
+  grid-gap: 200px 0px;
+  grid-template-columns: 0fr 0fr 0fr;
+  grid-template-rows: 150px 150px;
+  grid-template-areas:
+    "img-guest-grace-hopper img-guest-katie-bouman img-guest-margaret-hamiltonian"
+    "img-guest-computer img-guest-computer-operators img-guest-susan-kare";
+}
 
+.img-guest-grace-hopper,
+.img-guest-katie-bouman,
+.img-guest-margaret-hamiltonian,
+.img-guest-computer,
+.img-guest-computer-operators,
+.img-guest-susan-kare {
+  width: 450px;
+  height: 350px;
+}
