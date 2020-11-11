@@ -1,21 +1,26 @@
 footer {
   height: 50px;
   margin-top: 5%;
-  text-align: center;
   width: 100%;
   display: grid;
-  grid-template-areas:
-    "copyright social-network";
+  grid-template-areas: "copyright social-network";
+}
+.copyright,
+.social-network {
+  width: 100%;
 }
 
 .copyright span {
-  font-family: IBMPlexMono;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: 22px;
+  font-size: 20px;
+  margin-left: 10%;
 }
 
 .social-network ul {
   display: flex;
-  margin: 0 auto;
+  margin-left: 30%;
+}
+
+.social-network ul li {
+  list-style-type: none;
+  padding: 15px;
 }

@@ -1,23 +1,26 @@
-.section-topics .our-topics-section {
-  align-items: center;
-}
-
 .section-topics {
   width: 100%;
-  height: 500px;
+  height: 300px;
   display: grid;
   grid-template-areas:
     "title"
     "our-topics-section";
 }
 
-.our-topics-section {
-  width: 100%;
+.section-topics .title {
+  width:50%;
+  margin-top: 18%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+}
+.section-topics .our-topics-section {
+  align-items: center;
   margin: 0 auto;
+  width: 75%;
   display: grid;
   grid-template-areas: "img-topic-temote img-topic-programming img-topic-computer img-topic-security-information";
 }
 
-.img-topic-security-information{
-    display: block;
+.img-topic-computer, .img-topic-programming, .img-topic-temote, .img-topic-security-information span{
+  font-size: 25px;
 }
