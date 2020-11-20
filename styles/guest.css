@@ -1,6 +1,6 @@
 /*--------------SECTION GUEST--------------*/
 
-.section-guest .img-container {
+.section-guest {
   width: 100%;
   margin: 0 auto;
   display: grid;
@@ -10,6 +10,7 @@
     "title"
     "img-container";
 }
+
 .section-guest .title {
   margin-top: 5%;
   margin-left: 10%;
@@ -36,4 +37,52 @@
 .img-guest-susan-kare {
   width: 450px;
   height: 350px;
+}
+
+@media screen and (max-width: 360px) {
+  .section-guest {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 0px;
+    grid-template-areas:
+      "title"
+      "img-container";
+  }
+
+  .section-guest .title {
+    width: 15%;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-bottom: 2.5%;
+  }
+
+  .section-guest .title h1 {
+    font-size: 30px;
+  }
+
+  .section-guest .img-container {
+    grid-template-columns: repeat(6, 0fr);
+    position: relative;
+    grid-template-rows: 85px 50px 1fr auto;
+    width: 50%;
+    grid-template-areas:
+      "img-guest-grace-hopper"
+      " img-guest-katie-bouman"
+      " img-guest-margaret-hamiltonian"
+      "img-guest-computer"
+      " img-guest-computer-operators"
+      " img-guest-susan-kare";
+  }
+
+  .img-guest-grace-hopper,
+  .img-guest-katie-bouman,
+  .img-guest-margaret-hamiltonian,
+  .img-guest-computer,
+  .img-guest-computer-operators,
+  .img-guest-susan-kare {
+    width: auto;
+    height: 285px;
+  }
 }

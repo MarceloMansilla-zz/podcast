@@ -1,17 +1,18 @@
 .section-chapters {
   margin: 0 auto;
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;
   width: 100%;
-  height:900px;
+  height: 900px;
   background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
   transform: skewY(-5deg);
   margin-top: 60px;
+  grid-template-areas: "section-chapters-title", "section-chapters-embeded";
 }
 
-.section-chapters .section-chapters-title {
-  color: #ffffff;
+.section-chapters .section-chapters-title h2 {
+  color: white;
   width: 209px;
   height: 62px;
 }
@@ -28,6 +29,6 @@
 }
 .iframe-topics {
   border: none;
-  width: 600px;
-  height: 300px;
+  width: 450px;
+  height: 250px;
 }

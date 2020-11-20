@@ -24,3 +24,40 @@ footer {
   list-style-type: none;
   padding: 15px;
 }
+
+@media screen and (max-width: 360px) {
+  footer {
+    height: 50px;
+    margin-top: 5%;
+    width: 100%;
+    align-items: center;
+    grid-template-columns: auto;
+    display: grid;
+    grid-template-areas:
+      "copyright"
+      " social-network";
+  }
+  .copyright{
+    width: 100%;
+    align-items: center;
+  }
+
+  .social-network {
+    width: 100%;
+    margin-left: 10%;
+  }
+  .copyright span {
+    font-size: 20px;
+  }
+
+  .social-network ul {
+    display: flex;
+    margin: 0px;
+    align-items: center;
+  }
+
+  .social-network ul li {
+    list-style-type: none;
+    padding-right: 5px;
+  }
+}

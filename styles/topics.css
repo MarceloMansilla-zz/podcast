@@ -8,7 +8,7 @@
 }
 
 .section-topics .title {
-  width:50%;
+  width: 50%;
   margin-top: 18%;
   margin-bottom: 2%;
   margin-left: 10%;
@@ -21,6 +21,50 @@
   grid-template-areas: "img-topic-temote img-topic-programming img-topic-computer img-topic-security-information";
 }
 
-.img-topic-computer, .img-topic-programming, .img-topic-temote, .img-topic-security-information span{
+.img-topic-computer,
+.img-topic-programming,
+.img-topic-temote,
+.img-topic-security-information span {
   font-size: 25px;
+}
+
+@media screen and (max-width: 360px) {
+  .section-topics {
+    width: 50%;
+    height: 300px;
+    margin-left: 0px;
+    display: grid;
+    grid-template-areas:
+      "title"
+      "our-topics-section";
+  }
+
+  .section-topics .title {
+    width: 40%;
+    text-align: left;
+  }
+
+  .section-topics .title h1{
+    font-size: 30px;
+  }
+
+  .section-topics .our-topics-section {
+    grid-template-columns: auto;
+    align-items: left;
+    width: 50%;
+    display: grid;
+    grid-template-areas:
+      "img-topic-temote"
+      " img-topic-programming"
+      " img-topic-computer"
+      " img-topic-security-information";
+  }
+
+  .img-topic-computer,
+  .img-topic-programming,
+  .img-topic-temote,
+  .img-topic-security-information span {
+    font-size: 15px;
+    margin-top: 5%;
+  }
 }
